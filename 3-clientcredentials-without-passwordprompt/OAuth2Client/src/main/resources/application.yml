@@ -1,0 +1,23 @@
+server:
+    port: 8080
+    contextPath: /client
+
+config:
+    oauth2:
+        resourceURI: http://localhost:8082/resource/jwt
+#        clientID: trusted
+#        clientSecret: secret
+#        accessTokenUri: http://localhost:8081/oauth/token
+#        userAuthorizationUri: http://localhost:8081/oauth/authorize
+
+security:
+    basic:
+        enabled: false
+    oauth2:
+        client:
+            clientId: confidential
+            clientSecret: secret
+            accessTokenUri: http://localhost:8081/oauth/token
+            userAuthorizationUri: http://localhost:8081/oauth/authorize
+            scope: read,write
+            
