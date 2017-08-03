@@ -3,10 +3,11 @@ sprint boot, sprint security, jwt, oauth2
 
 workable oauth2 with spring boot 1.5.2
 
-1-minimal-workable-version 
+1-minimal-workable-version -- https://github.com/brotherhui/08-practice-oauth2/tree/master/1-minimal-workable-version
 * set up the auth, client, resource server seperatly. Work with EnableOauth2Client
 
-2-client2sso-version  change from enableOauth2client to EnableOauth2Sso
+2-client2sso-version  -- https://github.com/brotherhui/08-practice-oauth2/tree/master/2-client2sso-version
+* change from enableOauth2client to EnableOauth2Sso
 
 
 # Please refer to below links:
